@@ -4,7 +4,7 @@ Proyek kelompok **Pengolahan Citra Digital 2026** · kelas `ti23ka` · topik **T
 
 [![Cek proyek](https://github.com/Prodi-TI-IBIKesatuan/pcd2026-ti23ka-t4/actions/workflows/cek-proyek.yml/badge.svg)](https://github.com/Prodi-TI-IBIKesatuan/pcd2026-ti23ka-t4/actions/workflows/cek-proyek.yml)
 
-**Lingkup kelompok kami:** [isi: satu kalimat, mis. "struk minimarket"]
+**Lingkup kelompok kami:** Struk dengan total tertulis (currency random)
 
 Meluruskan dan membersihkan foto struk, lalu membaca teks dan mengambil isian penting. Anggota dan perannya ada di [ANGGOTA.yml](ANGGOTA.yml); cara kerja kelompok ada di [PANDUAN.md](PANDUAN.md).
 
@@ -19,9 +19,9 @@ Meluruskan dan membersihkan foto struk, lalu membaca teks dan mengambil isian pe
 
 ## Dataset (Tahap 1)
 
-- Jumlah citra: [isi, minimal 200]
-- Foto sendiri: [isi, minimal 60, 15 per anggota]
-- Sumber data tambahan dan lisensinya: [isi, atau tulis "tidak ada"]
+- Jumlah citra: 200
+- Foto sendiri: Alex: 29, Rhainy, Steven, Tania : 15
+- Sumber data tambahan dan lisensinya: Receipt Computer Vision Model by savan, via Roboflow : https://universe.roboflow.com/savan-x6w9q/receipt-rlnml/browse?queryText=&pageSize=100&startingIndex=200&browseQuery=true , license CC BY 4.0 
 - Langkah preprocessing: [isi, ringkas dan berurutan]
 
 Rincian dataset, format anotasi, dan tautan Drive: [data/README.md](data/README.md). Contoh sebelum–sesudah ada di [outputs/figures/](outputs/figures/).
@@ -45,9 +45,9 @@ Aplikasi: [isi: tautan https://huggingface.co/spaces/...]
 Unggah foto struk, tampilkan dokumen yang sudah diluruskan, teks, tanggal, dan total. Kode aplikasi ada di [app/](app/).
 
 ## Sumber dan atribusi
-
 Tuliskan setiap kode, model, dataset, atau bantuan AI yang dipakai beserta sumbernya. Pemakaian tanpa sumber dihitung plagiarisme.
 
 | Yang dipakai | Sumber | Dipakai untuk |
 | --- | --- | --- |
-| [isi] | [isi] | [isi] |
+| Dataset (hanya gambar) | Receipt Computer Vision Model by savan, via Roboflow : https://universe.roboflow.com/savan-x6w9q/receipt-rlnml/browse?queryText=&pageSize=100&startingIndex=200&browseQuery=true | Dataset Tambahan |
+| PaddleOCR | https://github.com/PaddlePaddle/PaddleOCR | Ekstrasi Teks dari gambar dataset untuk dijadikan anotasi |
